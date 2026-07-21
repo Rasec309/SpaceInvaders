@@ -1,27 +1,31 @@
 using UnityEngine;
-
+ 
 public class MobileAssetsManager : MonoBehaviour
 {
     [SerializeField]
-    private GameObject[] moblibeAsset;
+    private GameObject[] mobileAssets;
     [SerializeField]
     private GameObject[] desktopAssets;
     private void Awake()
     {
-         #if UNITY_IOS || UNITY_ANDROID
-            {
-                foreach(var asset in moblibeAsset)
-                {
-                    asset.SetActive(true);
-                }
-            }
-            #else
-            {
-                foreach( var asset in desktopAssets)
-                {
-                    asset.SetActive(true);
-                }
-            }
-            #endif
+        if (Application.isEditor)
+        {
+            SetActiveAssets(desktopAssets, true);
+        }
+        else if (Application.isMobilePlatform)
+        {
+            SetActiveAssets(mobileAssets, true);
+        }
+        else
+        {
+            SetActiveAssets(desktopAssets, true);
+        }
+    }
+    private void SetActiveAssets(GameObject[] assets, bool isActive)
+    {
+        foreach (var asset in assets)
+        {
+            asset.SetActive(isActive);
+        }
     }
 }
