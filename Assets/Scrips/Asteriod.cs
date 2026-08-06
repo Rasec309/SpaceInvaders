@@ -15,11 +15,13 @@ public class Asteroid : Enemy
         base.OnEnable();
         rotateScript.enabled = true;
         animator.Play("Idle", 0, 0f);
+        
     }
     private void Update()
     {
         if (currentState == State.Active && target != null)
         {
+            transform.LookAt(target);
             Vector3 direction = (target.position - transform.position).normalized;
             transform.position += direction * speed * Time.deltaTime;
         }

@@ -16,7 +16,7 @@ public class EnemiesManager : MonoBehaviour
     private LevelData currentLevelData;
     public void SetLevel()
     {
-        LevelData currentLevelData = levelManager.GetCurrentLevelData();
+        currentLevelData = levelManager.GetCurrentLevelData();
         foreach (EnemiesData enemyData in currentLevelData.enemiesData)
         {
             StartCoroutine(SpawnEnemy(enemyData));

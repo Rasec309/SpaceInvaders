@@ -617,19 +617,7 @@ MonoBehaviour:
   maxHealth: 100
   onReceiveDamage:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   onDie:
     m_PersistentCalls:
       m_Calls:
@@ -660,9 +648,11 @@ MonoBehaviour:
   target: {fileID: 0}
   destroyAnimationName: Destroy
   destroySoundName: asteroid_destroy
+  appearSoundName: asteroid_appear
   rotateScript: {fileID: 1743642438782812314}
   speed: 2
   damage: 20
+  distanceToTarget: 50
 --- !u!95 &7249779115215602146
 Animator:
   serializedVersion: 7

@@ -15,8 +15,15 @@ MonoBehaviour:
   levels:
   - enemiesData:
     - enemyPrefab: {fileID: 2632451886774624539, guid: 4994f6421f57d9245a87865786b04c81, type: 3}
-      spawnTime: 3
+      spawnTime: 2
+    - enemyPrefab: {fileID: 2632451886774624539, guid: 4994f6421f57d9245a87865786b04c81, type: 3}
+      spawnTime: 4
     - enemyPrefab: {fileID: 2632451886774624539, guid: 4994f6421f57d9245a87865786b04c81, type: 3}
       spawnTime: 5
+  - enemiesData:
     - enemyPrefab: {fileID: 2632451886774624539, guid: 4994f6421f57d9245a87865786b04c81, type: 3}
-      spawnTime: 6
+      spawnTime: 2
+    - enemyPrefab: {fileID: 2632451886774624539, guid: 4994f6421f57d9245a87865786b04c81, type: 3}
+      spawnTime: 4
+    - enemyPrefab: {fileID: 2632451886774624539, guid: 4994f6421f57d9245a87865786b04c81, type: 3}
+      spawnTime: 5

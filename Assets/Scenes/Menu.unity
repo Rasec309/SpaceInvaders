@@ -2341,6 +2341,18 @@ MonoBehaviour:
   onPointerClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 11400000, guid: 8b822d4009f6965479d00ce232e2ad80, type: 2}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+        m_MethodName: SetLevelIndex
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Menu_button
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 85552592}
         m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
         m_MethodName: GoToSceneWithFade
