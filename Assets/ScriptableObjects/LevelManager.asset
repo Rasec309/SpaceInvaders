@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LevelManager
   levels:
   - enemiesData:
-    - enemyPrefab: {fileID: 7822994586377902275, guid: 3486f419fcb87e548b4c351f2374bcc1, type: 3}
+    - enemyPrefab: {fileID: 2632451886774624539, guid: 4994f6421f57d9245a87865786b04c81, type: 3}
       spawnTime: 2
     - enemyPrefab: {fileID: 2632451886774624539, guid: 4994f6421f57d9245a87865786b04c81, type: 3}
       spawnTime: 4
@@ -22,8 +22,28 @@ MonoBehaviour:
       spawnTime: 5
   - enemiesData:
     - enemyPrefab: {fileID: 2632451886774624539, guid: 4994f6421f57d9245a87865786b04c81, type: 3}
-      spawnTime: 2
-    - enemyPrefab: {fileID: 2632451886774624539, guid: 4994f6421f57d9245a87865786b04c81, type: 3}
       spawnTime: 4
     - enemyPrefab: {fileID: 2632451886774624539, guid: 4994f6421f57d9245a87865786b04c81, type: 3}
       spawnTime: 5
+    - enemyPrefab: {fileID: 2632451886774624539, guid: 4994f6421f57d9245a87865786b04c81, type: 3}
+      spawnTime: 5
+  - enemiesData:
+    - enemyPrefab: {fileID: 7822994586377902275, guid: 3486f419fcb87e548b4c351f2374bcc1, type: 3}
+      spawnTime: 3
+    - enemyPrefab: {fileID: 7822994586377902275, guid: 3486f419fcb87e548b4c351f2374bcc1, type: 3}
+      spawnTime: 5
+    - enemyPrefab: {fileID: 2632451886774624539, guid: 4994f6421f57d9245a87865786b04c81, type: 3}
+      spawnTime: 6
+    - enemyPrefab: {fileID: 2632451886774624539, guid: 4994f6421f57d9245a87865786b04c81, type: 3}
+      spawnTime: 5
+  - enemiesData:
+    - enemyPrefab: {fileID: 7822994586377902275, guid: 3486f419fcb87e548b4c351f2374bcc1, type: 3}
+      spawnTime: 3
+    - enemyPrefab: {fileID: 7822994586377902275, guid: 3486f419fcb87e548b4c351f2374bcc1, type: 3}
+      spawnTime: 5
+    - enemyPrefab: {fileID: 2632451886774624539, guid: 4994f6421f57d9245a87865786b04c81, type: 3}
+      spawnTime: 3
+    - enemyPrefab: {fileID: 2632451886774624539, guid: 4994f6421f57d9245a87865786b04c81, type: 3}
+      spawnTime: 5
+    - enemyPrefab: {fileID: 2632451886774624539, guid: 4994f6421f57d9245a87865786b04c81, type: 3}
+      spawnTime: 4

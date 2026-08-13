@@ -151,7 +151,19 @@ MonoBehaviour:
   fadeAnimator: {fileID: 5832459916101794905}
   onSceneStarted:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1860760705}
+        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
+        m_MethodName: PlayMusic
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Menu_Space
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &85552593
 Transform:
   m_ObjectHideFlags: 0
@@ -2777,6 +2789,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RecticlePointer
       objectReference: {fileID: 0}
+    - target: {fileID: 7081251208128484162, guid: 30e66cce77b377a4c9ced3ee8ec4c647, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c5bbeecbae6dbe04db6b7c7ad30aded8, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
